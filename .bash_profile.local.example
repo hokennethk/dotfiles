@@ -1,0 +1,4 @@
+# copy this file into your local machine's home folder
+
+[[ -e ~/dotfiles/.bash_profile ]] && source ~/dotfiles/.bash_profile ||
+  { echo "ERROR: '~/dotfiles/.bash_profile' does not exist" 1>&2 ; }
