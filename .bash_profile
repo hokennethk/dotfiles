@@ -31,7 +31,7 @@ source ~/.bashrc
     done;
     unset file;
 
-    source ~/.git-completion.bash
+    source $DIR/.git-completion.bash
 
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
