@@ -9,6 +9,7 @@ set colorcolumn=100
 set title               " display a title
 set ruler
 set visualbell          " less noise from vim :)
+set laststatus=2
 
 
 " Tab spacing and insertion
