@@ -81,6 +81,9 @@ let mapleader=" "
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-repeat'
+
 
 Plug 'pangloss/vim-javascript'
 let g:javascript_plugin_flow = 1
