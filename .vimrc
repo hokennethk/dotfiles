@@ -88,4 +88,7 @@ let g:javascript_plugin_flow = 1
 Plug 'airblade/vim-gitgutter'
 set updatetime=250
 
+Plug 'scrooloose/nerdtree'
+map <C-n> :NERDTreeToggle<CR>
+
 call plug#end()
