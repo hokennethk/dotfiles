@@ -89,6 +89,9 @@ Plug 'tpope/vim-repeat'
 Plug 'pangloss/vim-javascript'
 let g:javascript_plugin_flow = 1
 
+Plug 'elmcast/elm-vim'
+let g:elm_format_autosave = 1
+
 Plug 'airblade/vim-gitgutter'
 set updatetime=250
 
