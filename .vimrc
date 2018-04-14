@@ -5,6 +5,8 @@
 " :so % will reload vimrc while editing this file
 
 syntax enable
+colorscheme onedark
+set t_Co=256            " vim-monokai now only support 256 colours in terminal
 set colorcolumn=100
 set title               " display a title
 set ruler
@@ -69,7 +71,7 @@ nnoremap k gk
 nnoremap gV `[v`]
 
 """"""""""""""""""""""
-" LEADER SHORTCUTS 
+" LEADER SHORTCUTS
 """"""""""""""""""""""
 let mapleader=" "
 " insert escape mode
