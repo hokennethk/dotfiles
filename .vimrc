@@ -48,7 +48,7 @@ set t_Co=256            " vim-monokai now only support 256 colours in terminal
 " UI Config
 """"""""""""""
 set number        " show line numbers
-set cursorline		" inserts a horizontal line where your cursor is
+" set cursorline		" inserts a horizontal line where your cursor is (but its slow in terminal vim)
 
 set showmatch     " highlights matching parens when cursor is over it
 set history=100   " default search history is 20
