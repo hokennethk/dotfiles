@@ -18,6 +18,9 @@ set laststatus=2
 set tabstop=2
 set softtabstop=2
 set expandtab
+ 
+" faster escape
+set ttimeoutlen=10
 
 """"""""""""""
 " COLOR SCHEME
